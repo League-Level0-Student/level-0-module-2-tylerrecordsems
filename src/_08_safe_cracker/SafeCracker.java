@@ -39,7 +39,7 @@ public class SafeCracker {
 			System.exit(0);
 		}
 	}
-
+     
 	private static void playTheSoundOfSuccess() {
 		try {
 			AudioClip sound = JApplet.newAudioClip(SafeCracker.class.getResource("me-gusta.wav"));
