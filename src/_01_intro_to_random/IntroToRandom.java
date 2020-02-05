@@ -14,8 +14,8 @@ public class IntroToRandom {
 		//3a. Create an object of the Random class, Hint: Random ran = new Random()
 		Random J = new Random ();
 		//3b. Next, set the value of num, using .nextInt() to get a random number from the Random object
-	
-		num=J.nextInt((75 - 25)+1) + 25;                                                                                                          
+		num=J.nextInt(101);
+		//num=J.nextInt((75 - 25)+1) + 25;                                                                                                          
 
 		//4. Now limit the value of num to be between 0 and 100
 
